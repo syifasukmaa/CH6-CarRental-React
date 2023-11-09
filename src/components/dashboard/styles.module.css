@@ -1,0 +1,429 @@
+.header {
+  background-color: #f1f3ff;
+  padding-bottom: 223px;
+}
+.containerAll {
+  margin: 0 16px;
+}
+.logo {
+  width: 20%;
+}
+.btn {
+  border-radius: 2px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #5cb85f;
+}
+.btn:hover {
+  background-color: #3d7b3f;
+}
+.btnRegister {
+  width: 81px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #5cb85f; */
+  margin-top: 10px;
+}
+
+.navbar {
+  padding: 24px 0;
+}
+.navbar > .containerFluid {
+  padding: 0;
+}
+.navbarToggler {
+  border: none;
+  padding: 0;
+}
+.navbarToggler:focus {
+  border: transparent;
+  outline: none;
+  box-shadow: none;
+}
+.buttonClose {
+  border: none;
+  background-color: transparent;
+}
+.offcanvas.show,
+.offcanvas.showing {
+  width: 180px !important;
+}
+.offcanvas-backdrop.show {
+  opacity: 0.6 !important;
+}
+.offcanvas-header {
+  padding: 34px 16px 0 16px !important;
+}
+.offcanvasBody {
+  padding: 18px 16px 16px 16px;
+}
+.offcanvasTitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.navbar-nav li a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.headerText {
+  color: #000;
+}
+.headerHeading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+.headerDesc {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.btnSewaMobil {
+  padding: 8px 12px;
+}
+.imgMarcedes {
+  width: 344.216px;
+  height: 199px;
+  margin-top: 24px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.ourServices {
+  padding: 60px 16px 30px 16px;
+}
+.imgServices {
+  width: 252px;
+  height: 228px;
+  flex-shrink: 0;
+}
+.servicesText {
+  margin-top: 24px;
+  color: #000;
+}
+.servicesHeading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.servicesDesc {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.servicesDesc > p > span {
+  margin-right: 16px;
+}
+.servicesDesc > p:last-child {
+  margin-bottom: 0;
+}
+#whyUs {
+  padding: 30px 0 0 0;
+}
+.whyusHeading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.whyusDesc {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.cardWrapper {
+  margin-top: 40px;
+  padding: 0;
+}
+.cards {
+  padding: 24px;
+}
+.cardImgTop {
+  width: 24px;
+  height: 24px;
+}
+.cardTitle {
+  margin: 16px 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.cardText {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.testimonial {
+  padding: 60px 0;
+}
+.carousel {
+  background-color: #f1f3ff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+  margin: 16px 0 88px 0;
+}
+.allItem {
+  padding: 50px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgCarousel {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.carouselCaption {
+  margin-top: 34px;
+  font-size: 14px;
+}
+.carouselStar img {
+  padding: 0;
+  margin: 0;
+}
+.carouselDesc {
+  font-weight: 300;
+  line-height: 20px;
+}
+.carouselName {
+  font-weight: 400;
+  line-height: 20px;
+}
+.carouselControlNext,
+.carouselControlPrev {
+  bottom: 55%;
+}
+.testimoniButtom {
+  background-color: #091b6f;
+  color: white;
+  border-radius: 13px;
+  padding: 64px 58px;
+}
+.testimoniHeader {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.testimoniDesc {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 32px;
+}
+.btnTestimoni {
+  padding: 8px 12px;
+  color: white;
+  /* background-color: #5cb85f; */
+}
+.faqHeader {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.faqDesc {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.faqLeft {
+  flex-basis: 75%;
+}
+.faqRight {
+  flex-basis: 100%;
+}
+#footer {
+  padding: 60px 0;
+}
+#footer > p {
+  margin-bottom: 16px;
+}
+
+.biodataWrapper {
+  flex-basis: 35%;
+}
+.navWrapper a {
+  text-decoration: none;
+  color: #000;
+}
+.navWrapper {
+  flex-basis: 10%;
+}
+.iconWrapper {
+  flex-basis: 40%;
+  margin-bottom: 16px;
+}
+.iconWrapper > a {
+  display: inline-block;
+}
+.iconWrapper a:not(:first-child) {
+  margin-left: 5px;
+}
+.logoWrapper {
+  flex-basis: 20%;
+}
+
+/* Device M */
+@media (min-width: 768px) {
+  .header {
+    padding-bottom: 370px;
+  }
+  .containerAll {
+    margin: 0 100px;
+  }
+  .logo {
+    width: 8%;
+  }
+  .offcanvas-header {
+    padding-right: 80px;
+  }
+  .offcanvas.show,
+  .offcanvas.showing {
+    width: 300px !important;
+  }
+  .headerText {
+    width: 100%;
+    margin-top: 32px;
+  }
+  .imgMarcedes {
+    width: 600px;
+    height: 350px;
+  }
+  .ourServices {
+    padding: 60px 140px 50px 140px;
+  }
+  .servicesText {
+    margin-left: 50px;
+  }
+  .carousel {
+    margin: 16px 70px 88px 70px;
+  }
+}
+
+/* Device L*/
+@media (min-width: 992px) {
+  .header {
+    padding-bottom: 60px;
+  }
+  .containerAll {
+    margin: 0 136px;
+  }
+  .imgMarcedes {
+    width: 500px;
+    height: 300px;
+    flex-shrink: 0;
+  }
+  .headerText {
+    width: 100%;
+  }
+  .headerHeading {
+    width: 50%;
+  }
+  .headerDesc {
+    width: 50%;
+  }
+  .imgServices {
+    width: 309px;
+    height: 278px;
+  }
+  #whyUs {
+    padding: 50px 0 0 0;
+  }
+  .testimonial {
+    padding: 60px 0 50px 0;
+  }
+  .carousel {
+    margin: 40px 80px 156px 80px;
+  }
+  .allItem {
+    flex-direction: row;
+    padding: 0 120px;
+  }
+  .imgCarousel {
+    margin-right: 40px;
+    width: 70.217px;
+    height: 80px;
+    object-fit: cover;
+  }
+  .carouselCaption {
+    margin-top: 64px;
+    margin-bottom: 69px;
+  }
+  .carouselControlNext,
+  .carouselControlPrev {
+    bottom: 0;
+  }
+  .testimoniButtom {
+    padding: 64px 150px;
+  }
+  .testimoniDesc {
+    margindttom: 52px;
+    padding: 0 72px;
+  }
+  .faq {
+    padding: 50px 0 75px 0;
+  }
+  #footer {
+    padding: 75px 0 100px 0;
+  }
+  .logoFooter {
+    width: 40%;
+  }
+}
+
+/* Device XL */
+@media (min-width: 1200px) {
+  .header {
+    padding-bottom: 102px;
+  }
+  .btnRegister {
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+  .headerText {
+    margin-top: 75px;
+  }
+  .imgMarcedes {
+    width: 689px;
+    height: 392px;
+    flex-shrink: 0;
+  }
+  .headerHeading {
+    width: 50%;
+  }
+  .headerDesc {
+    width: 40%;
+  }
+  .imgServices {
+    width: 379px;
+    height: 348px;
+  }
+  .servicesText {
+    margin-left: 100px;
+  }
+  .allItem {
+    padding: 0 150px;
+  }
+  .testimoniHeaderButtom {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+  }
+}
+
+/* Device XXL */
+@media (min-width: 1500px) {
+  .headerHeading {
+    width: 80%;
+  }
+  .headerDesc {
+    width: 80%;
+  }
+  .headerText {
+    width: 50%;
+    margin-top: 140px;
+  }
+}
