@@ -14,7 +14,6 @@ export default function Dashboard() {
       <WhyUs />
       <Testimonial />
       <FAQ />
-      <Footer />
     </>
   );
 }

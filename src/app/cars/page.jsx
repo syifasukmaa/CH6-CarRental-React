@@ -13,7 +13,6 @@ function Cars() {
           <Main />
           <Search />
           <Car />
-          <Footer />
         </CarProvider>
       </ChakraProvider>
     </>
